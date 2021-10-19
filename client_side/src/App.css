@@ -1,0 +1,51 @@
+
+
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ #navbar{
+  background-image:linear-gradient(#888,#bbb);
+  width: 100%;
+  height: 30px;
+ }
+ .buttons{
+   background-image:linear-gradient(#088,#3aa);
+   border-radius: 5px;
+   color: #fff;
+   border: none;
+   height: 30px;
+ }
+ .buttons:hover{
+  /* background-image: linear-gradient(#088, #8ff); */
+  border-radius: 5px;
+  border:#fff solid;
+  color: #444;
+  border: none;
+}
+.container{
+  /* border: #888 solid; */
+/* height: 50px; */
+display: flex;
+flex-direction: row;
+width: 50%;
+justify-content: center;
+}
+.title{
+  /* display: inline; */
+  font-size: small;
+  /* text-align: center;
+  justify-content: center; */
+}
+.img{
+  width: 25%;
+  height: auto;
+}
