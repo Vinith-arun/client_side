@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useEffect, axios } from 'react'
+import React, { useEffect } from 'react'
 
 function App() {
 const [data, setData] = React.useState([]);
@@ -63,7 +63,7 @@ function contents(){
 
     </div>
   );
-};
+}
 export default App;
 
 
